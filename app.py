@@ -3,7 +3,7 @@ from pydantic import BaseModel
 import numpy as np
 import pickle
 
-# مدل رو بارگذاری کن
+# بار گذاری مدل
 with open("model_lgbm_diabetes.pkl", "rb") as f:
     model = pickle.load(f)
 
