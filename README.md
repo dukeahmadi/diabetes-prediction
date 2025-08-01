@@ -15,9 +15,11 @@ diabetes-prediction-api/
 │
 ├── app/                      # FastAPI app and saved model
 │   ├── main.py
-│   └── model_lgbm_diabetes.pkl
+│   
+│── model_lgbm_diabetes.pkl
 │
-├── notebook/                 # Jupyter Notebooks for ML pipeline
+│ 
+├──model_art.ipynb/                 # Jupyter Notebooks for ML pipeline
 │   ├── 01_eda.ipynb
 │   ├── 02_modeling.ipynb
 │   └── 03_best_model.ipynb
@@ -26,8 +28,9 @@ diabetes-prediction-api/
 │   └── diabetes.csv
 │
 ├── requirements.txt
+│ 
 ├── README.md
-└── .gitignore
+
 ```
 
 ---
